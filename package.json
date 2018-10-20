@@ -1,0 +1,63 @@
+{
+  "name": "code-copy-ruby-ref",
+  "displayName": "code-copy-ruby-ref",
+  "description": "This lets you copy the path to a class/method/constant in Ruby",
+  "version": "0.0.1",
+  "repository": "https://github.com/mickey/code-copy-ruby-ref",
+  "publisher": "mickey",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+   "keywords": [
+     "ruby",
+     "reference",
+     "copy",
+     "path"
+   ],
+   "categories": [
+     "Programming Languages",
+     "Other"
+   ],
+  "activationEvents": [
+    "onCommand:extension.copyRubyReference"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.copyRubyReference",
+        "title": "Copy Ruby reference"
+      }
+    ],
+    "keybindings": [{
+      "command": "extension.copyRubyReference",
+      "key": "ctrl+shift+alt+c",
+      "mac": "cmd+shift+alt+c"
+    }],
+     "menus": {
+       "editor/context": [{
+         "when": "resourceLangId == ruby",
+         "command": "extension.copyRubyReference",
+         "group": "9_cutcopypaste"
+       }]
+     }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "dependencies": {
+    "@types/clipboardy": "^1.1.0",
+    "clipboardy": "^1.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.21",
+    "tslint": "^5.8.0",
+    "@types/node": "^8.10.25",
+    "@types/mocha": "^2.2.42"
+  }
+}
