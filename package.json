@@ -2,7 +2,7 @@
   "name": "code-copy-ruby-ref",
   "displayName": "Copy Ruby Reference",
   "description": "This lets you copy the path to a class/method/constant in Ruby",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "repository": "https://github.com/mickey/code-copy-ruby-ref",
   "publisher": "mickey",
   "engines": {

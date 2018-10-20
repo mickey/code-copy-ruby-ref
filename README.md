@@ -1,19 +1,21 @@
-# code-copy-ruby-ref
+# Copy Ruby Reference
 
 This extension lets you copy the path to a class/method/constant in Ruby.
 
-<p align="center">
-  <br />
-  <img src="https://raw.githubusercontent.com/mickey/code-copy-ruby-ref/master/demo.gif" alt="Copy Ruby reference Preview" />
-  <br />
-</p>
+![Copy Ruby reference Preview](https://raw.githubusercontent.com/mickey/code-copy-ruby-ref/master/demo.gif)
 
 ## Installation
 ```
 $ ext install code-copy-ruby-ref
 ```
 
-Or, F1 → Install Extension → Search for `copy ruby ref`
+Or, F1 → Install Extension → Search for `copy ruby ref`.
+
+## Keybindings
+
+The default is `ctrl+shift+alt+c` on Windows/Linux and `cmd+shift+alt+c` on Mac.
+
+You can change the keybinding in Code → Preferences → Keyboard Shortcuts → Copy Ruby reference
 
 ## Credits
 
