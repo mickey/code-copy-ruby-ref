@@ -8,7 +8,7 @@
   "engines": {
     "vscode": "^1.28.0"
   },
-  "icon": "https://raw.githubusercontent.com/mickey/code-copy-ruby-ref/master/icon.png",
+  "icon": "icon.png",
   "keywords": [
     "ruby",
     "reference",
