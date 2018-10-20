@@ -9,6 +9,8 @@ This extension lets you copy the path to a class/method/constant in Ruby.
 </p>
 
 ## Installation
-
+```
 $ ext install code-copy-ruby-ref
+```
+
 Or, F1 → Install Extension → Search for `copy ruby ref`
