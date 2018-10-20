@@ -23,7 +23,8 @@
     "onCommand:extension.copyRubyReference"
   ],
   "galleryBanner": {
-    "theme": "dark"
+    "theme": "dark",
+    "color": "#232323"
   },
   "main": "./out/extension",
   "contributes": {
