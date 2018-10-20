@@ -1,26 +1,30 @@
 {
   "name": "code-copy-ruby-ref",
-  "displayName": "code-copy-ruby-ref",
+  "displayName": "Copy Ruby Reference",
   "description": "This lets you copy the path to a class/method/constant in Ruby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/mickey/code-copy-ruby-ref",
   "publisher": "mickey",
   "engines": {
     "vscode": "^1.28.0"
   },
-   "keywords": [
-     "ruby",
-     "reference",
-     "copy",
-     "path"
+  "icon": "https://raw.githubusercontent.com/mickey/code-copy-ruby-ref/master/icon.png",
+  "keywords": [
+    "ruby",
+    "reference",
+    "copy",
+    "path"
    ],
-   "categories": [
-     "Programming Languages",
-     "Other"
-   ],
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
   "activationEvents": [
     "onCommand:extension.copyRubyReference"
   ],
+  "galleryBanner": {
+    "theme": "dark"
+  },
   "main": "./out/extension",
   "contributes": {
     "commands": [
